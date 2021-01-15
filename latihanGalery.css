@@ -1,0 +1,38 @@
+*{
+       margin: 0px;
+    padding: 0px;
+}
+.para{
+ 
+    background-attachment: fixed;
+    background-image: url("building.jpg");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.5s;
+}
+.header ul{
+    display: block;
+    
+}
+.header li{
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+.header li:hover{
+    background-color: blue;
+}
+.header a{
+    text-shadow: 3px 3px 5px black;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}

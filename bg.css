@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+
+.bg{
+margin:auto;
+
+
+background-image: url(bg.jpg);
+background-size: cover;
+}
+.frame{
+    box-sizing: border-box;
+
+    width: inherit;
+    height: inherit;
+    
+}
+.frame h1{
+    width: inherit;
+    text-align: center;
+    position: relative;
+    top: 200px;
+   font-size: 60px;
+   color: white;
+   font-weight: bold;
+   text-shadow: 5px 5px 5px black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+}
+
+.satu{
+    margin:1px;
+    background-color: green;
+    height: 160px;
+}
+.dua{
+    margin:1px;
+    background-color: rgb(219, 223, 7);
+    height: 160px;
+}
+.tiga{
+    margin:1px;
+    background-color: rgb(224, 47, 15);
+    height: 160px;
+}
+.empat{
+    margin:1px;
+    background-color: rgb(15, 74, 236);
+    height: 160px;
+}

@@ -1,0 +1,46 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.kontener{
+  margin: auto;
+  width: 950px;
+}
+.header{
+  background-color: #b2ff59;
+  padding: 20px;
+}
+.nav li{
+  display: inline;
+  
+}
+.nav ul li a{
+   color: #000000;
+}
+.nav{
+   background-color: #7ecb20  ;
+
+}
+.banner img{
+  width: 100%;
+  height: 400px;
+}
+.nav a{
+  text-decoration: none;
+  color: wheat;
+  font-weight: bold;
+  padding-right:10px ;
+}
+.artikel{
+  
+  display: grid;
+  grid-template-columns:20% 50% 30% ;
+}
+
+
+.satu li{
+  list-style: none;
+}
+#abaout{
+  float: right;
+}

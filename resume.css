@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(8, 7, 7);
+}
+.kontener{
+    display: grid;
+    grid-template-columns: 6% 34% 60%;
+    width: 920px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+ 
+}
+.banner{
+    text-align: center;
+    background-image: url("kin2.jpg");
+    background-size: cover;
+
+}
+.banner h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 300px;
+    text-shadow:1px 1px 4px black,2px 2px 4px black;
+}
+.banner h2{
+    color:  #06a70b;
+    text-shadow: 3px 3px 3px black;
+}
+.conten{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #555; 
+   
+;
+}
+.icon-bar {
+margin-top:50px ;
+  width: 60px; 
+  height: 430px;
+  background-color: #555; 
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 26px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #06a70b; /* Add an active/current color */
+}
+.conten{
+    padding: 16px;
+    overflow: auto;
+}
+.conten h1{
+    color: white;
+}
+.conten h2{
+    color: #06a70b;
+    font-style: italic;
+}
+.card{
+    margin:5px;
+    float: left;
+    width: 200px;
+    height: 300px;
+}

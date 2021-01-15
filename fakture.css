@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+ 
+}
+
+.kontener{
+   width: 1200px;
+    margin: auto;
+    padding:10px;
+    background-color: rgb(196, 195, 195);
+}
+
+.kop{
+    border: 1px solid yellow;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.namaToko{
+    border: 1px solid red;
+   font-family: Bevan;
+    padding-left: 15px;
+}
+.keterangan{
+    border: 1px solid green;
+      font-size: 20px;
+    padding-top: 5px;
+}
+.kop2{
+   
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+.noFakture{
+      font-size: 20px;
+    margin-left: 10px;
+   
+}
+.typeBayar{
+      font-size: 20px;
+}
+.jatuhTempo{
+      font-size: 20px;
+   text-align: right;
+   padding-right: 15px;
+   
+}
+.table table{
+    margin-top: 5px;
+    margin-left: 10px;
+ 
+    width: 95%;
+
+}
+.table table, th , td {
+      font-size: 20px;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.table td{
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.footer{
+    
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+.disclaimer{
+   font-size: 20px;
+    width: 90%;
+    margin-left: 10px;
+    border: 1px solid black
+}
+.count table{
+    
+    padding-left: 15px;
+    width: 90%;
+}
+.count tr, td{
+     font-size: 20px;
+    border:0px solid black ;
+    border-collapse: collapse;
+}
+.count table{
+  
+    width: 87%;
+    border : 1px solid black
+}
+.count h4{
+ 
+    text-align: right;
+    margin-right: 10px;
+}
+.ttd{
+  
+    display:grid;
+    grid-template-columns: 40% 30% 30%;
+}
+.penerima{
+      font-size: 18px;
+margin-right: 50px;
+text-align: center;
+
+}
+.hormat{
+      font-size: 18px;
+text-align: center;
+}

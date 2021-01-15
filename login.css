@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+  
+}
+body{
+
+}
+
+.kontener{
+   
+    margin: auto;
+     margin-top: 300px;
+     padding: 20px;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(48, 79, 255);
+}
+label{
+    color: white;
+    display: block;
+    background-color:  rgb(48, 79, 255);
+
+}
+input{
+    padding: 5px;
+    width: 100%;
+}
+#submit:hover{
+background-color: rgb(34, 253, 78);
+}
+#submit{
+    font-size: 18px;
+    font-weight: bold;
+}
